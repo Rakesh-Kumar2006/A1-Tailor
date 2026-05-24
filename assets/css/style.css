@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Body */
+body{
+    background-color: #0b0f19;
+    color: white;
+}
+
+/* Navbar */
+.navbar{
+    background: #121826 !important;
+    padding: 15px 0;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+}
+
+.navbar-brand img{
+    object-fit: cover;
+}
+
+.nav-link{
+    color: #d1d5db !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #2563eb !important;
+}
+
+.nav-link.active{
+    color: #2563eb !important;
+}
+
+/* Hero Section */
+.hero-section{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    /* Keep it self-contained: the repo doesn't ship a hero image yet. */
+    background:
+        radial-gradient(1200px 500px at 20% 30%, rgba(37,99,235,0.35), transparent 60%),
+        radial-gradient(900px 500px at 80% 70%, rgba(29,78,216,0.25), transparent 55%),
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.75));
+}
+
+.hero-section::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../images/logo.png') no-repeat;
+    background-position: center;
+    background-size: min(520px, 70vw);
+    opacity: 0.10;
+    pointer-events: none;
+    filter: saturate(0.9) contrast(1.05);
+}
+
+.hero-section > .container{
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.hero-section p{
+    font-size: 18px;
+    color: #d1d5db;
+}
+
+/* Custom Button */
+.btn-custom{
+    background: #2563eb;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-custom:hover{
+    background: #1d4ed8;
+    color: white;
+}
+
+/* Section Title */
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-title p{
+    color: #b0b8c5;
+}
+
+/* Service Cards */
+.service-card{
+    background: #1a2235;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 20px rgba(37,99,235,0.3);
+}
+
+.service-card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Gallery */
+.gallery img{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.form-control{
+    background: #1a2235;
+    border: none;
+    color: white;
+}
+
+.form-control:focus{
+    background: #1a2235;
+    color: white;
+    box-shadow: none;
+    border: 1px solid #2563eb;
+}
+
+/* Business Card Image */
+.business-card img{
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+}
+
+/* Footer */
+footer{
+    background: #05070d;
+}
+
+footer h4{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+footer p,
+footer a{
+    color: #b0b8c5;
+}
+
+footer a:hover{
+    color: #2563eb;
+}
+
+.site-data-warning{
+    display: none;
+    background: rgba(37,99,235,0.12);
+    border: 1px solid rgba(37,99,235,0.35);
+    color: #dbeafe;
+    border-radius: 12px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .hero-section h1{
+        font-size: 35px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .nav-link{
+        margin-left: 0;
+    }
+}

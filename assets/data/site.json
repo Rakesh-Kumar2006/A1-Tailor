@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "A-1 Tailor",
+    "logo": "assets/images/logo.png",
+    "tagline": "Perfect Stitching, Perfect Fitting"
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "About Us", "href": "about.html" },
+    { "label": "Services", "href": "services.html" },
+    { "label": "Gallery", "href": "gallery.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "contact": {
+    "addressLines": [
+      "Maa Tenament 11A Jawahar Society Near Cadmus",
+      "(Sodha) School Khodiyar Colony Jamnagar 361006"
+    ],
+    "phoneDisplay": "+91 8530362784",
+    "phoneE164": "+918530362784",
+    "email": "a1.tailor001@gmail.com",
+    "hours": [
+      { "label": "Mon-Sat", "value": "9:00 AM - 8:00 PM" },
+      { "label": "Sunday", "value": "Closed" }
+    ],
+    "mapEmbedUrl": "https://www.google.com/maps?q=22.4707,70.0577&z=15&output=embed"
+  },
+  "footer": {
+    "aboutText": "Professional ladies stitching and alteration services with premium quality.",
+    "quickLinks": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "About", "href": "about.html" },
+      { "label": "Services", "href": "services.html" },
+      { "label": "Gallery", "href": "gallery.html" },
+      { "label": "Contact", "href": "contact.html" },
+      { "label": "Terms & Conditions", "href": "terms.html" }
+    ]
+  },
+  "services": [
+    { "name": "Blouse", "priceInr": 180 },
+    { "name": "Dress Salwar Kurti", "priceInr": 220 },
+    { "name": "Dress Pant Kurti", "priceInr": 280 },
+    { "name": "Kali Lehenga", "priceInr": 350 },
+    { "name": "Umbrella Lehenga", "priceInr": 250 },
+    { "name": "Gown", "priceInr": 350 },
+    { "name": "Kurti", "priceInr": 150 },
+    { "name": "Fall Chheda Small Fall", "priceInr": 30 },
+    { "name": "Fall Chheda Big Fall", "priceInr": 40 },
+    { "name": "Frock", "priceInr": 200 }
+  ],
+  "serviceHighlights": [
+    { "title": "Blouse Stitching", "description": "Elegant custom blouse designs." },
+    { "title": "Kurti Stitching", "description": "Stylish and comfortable stitching." },
+    { "title": "Alteration", "description": "Perfect fitting adjustments." }
+  ],
+  "gallery": [
+    { "title": "Custom Blouse", "image": "assets/images/blouse.png" },
+    { "title": "Designer Kurti", "image": "assets/images/kurti.png" },
+    { "title": "Alteration Work", "image": "assets/images/alter.png" },
+    { "title": "Bridal Wear", "image": "assets/images/about.png" },
+    { "title": "Gown", "image": "assets/images/Gown.png" },
+    { "title": "Frock", "image": "assets/images/Frock.png" },
+    { "title": "Salwar-Suit", "image": "assets/images/suit.png" }
+  ]
+}

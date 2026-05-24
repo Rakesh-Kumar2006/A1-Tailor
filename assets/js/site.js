@@ -136,8 +136,18 @@
   (data.contact.facebook
     ? '<a href="' +
       escapeHtml(data.contact.facebook) +
-      '" target="_blank" class="text-decoration-none">' +
+      '" target="_blank" class="text-decoration-none me-3">' +
       '<i class="bi bi-facebook"></i> Facebook</a>'
+    : "") +
+
+    // WhatsApp
+  (data.contact.phoneE164
+    ? '<a href="https://wa.me/' +
+      escapeHtml(
+        (data.contact.phoneE164 || "").replace(/\+/g, "")
+      ) +
+      '" target="_blank" class="text-decoration-none">' +
+      '<i class="bi bi-whatsapp"></i> WhatsApp</a>'
     : "") +
 
   "</div>" +

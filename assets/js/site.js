@@ -123,6 +123,24 @@
       ": " +
       escapeHtml((data.contact.hours && data.contact.hours[0] && data.contact.hours[0].value) || "") +
       "</p>" +
+      // Social Links
+  '<div class="mt-3">' +
+
+  (data.contact.instagram
+    ? '<a href="https://instagram.com/' +
+      escapeHtml(data.contact.instagram) +
+      '" target="_blank" class="me-3 text-decoration-none">' +
+      '<i class="bi bi-instagram"></i> Instagram</a>'
+    : "") +
+
+  (data.contact.facebook
+    ? '<a href="' +
+      escapeHtml(data.contact.facebook) +
+      '" target="_blank" class="text-decoration-none">' +
+      '<i class="bi bi-facebook"></i> Facebook</a>'
+    : "") +
+
+  "</div>" +
       "</div>" +
       "</div>" +
       "<hr>" +

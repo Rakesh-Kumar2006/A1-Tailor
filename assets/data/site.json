@@ -19,6 +19,8 @@
     "phoneDisplay": "+91 8530362784",
     "phoneE164": "+918530362784",
     "email": "a1.tailor001@gmail.com",
+    "instagram": "a.1.tailor",
+    "facebook": "https://www.facebook.com/share/1B7kfb1JZa/",
     "hours": [
       { "label": "Mon-Sat", "value": "9:00 AM - 8:00 PM" },
       { "label": "Sunday", "value": "Closed" }
@@ -37,15 +39,15 @@
     ]
   },
   "services": [
-    { "name": "Blouse", "priceInr": 180 },
-    { "name": "Dress Salwar Kurti", "priceInr": 220 },
+    { "name": "Blouse", "priceInr": 200 },
+    { "name": "Dress Salwar Kurti", "priceInr": 250 },
     { "name": "Dress Pant Kurti", "priceInr": 280 },
     { "name": "Kali Lehenga", "priceInr": 350 },
     { "name": "Umbrella Lehenga", "priceInr": 250 },
     { "name": "Gown", "priceInr": 350 },
     { "name": "Kurti", "priceInr": 150 },
-    { "name": "Fall Chheda Small Fall", "priceInr": 30 },
-    { "name": "Fall Chheda Big Fall", "priceInr": 40 },
+    { "name": "Fall Chheda Small Fall", "priceInr": 40 },
+    { "name": "Fall Chheda Big Fall", "priceInr": 50 },
     { "name": "Frock", "priceInr": 200 }
   ],
   "serviceHighlights": [

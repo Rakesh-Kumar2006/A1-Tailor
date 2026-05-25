@@ -61,8 +61,8 @@
     { "title": "Designer Kurti", "image": "assets/images/kurti.png" },
     { "title": "Alteration Work", "image": "assets/images/alter.png" },
     { "title": "Bridal Wear", "image": "assets/images/about.png" },
-    { "title": "Gown", "image": "assets/images/Gown.png" },
-    { "title": "Frock", "image": "assets/images/Frock.png" },
+    { "title": "Gown", "image": "assets/images/gown.png" },
+    { "title": "Frock", "image": "assets/images/frock.png" },
     { "title": "Salwar-Suit", "image": "assets/images/suit.png" }
   ]
 }

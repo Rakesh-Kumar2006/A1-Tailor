@@ -272,11 +272,11 @@
       ": " +
       escapeHtml((data.contact.hours && data.contact.hours[0] && data.contact.hours[0].value) || "") +
       "</p>" +
-      '<div class="mt-3">' +
+      '<div class="mt-4 rounded overflow-hidden shadow">' +
       '<iframe src="' +
       escapeHtml(data.contact.mapEmbedUrl || "") +
-      '" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
-      "</div>";
+      '" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
+'</div>';
   }
 
   function showLocalFileWarningIfNeeded() {

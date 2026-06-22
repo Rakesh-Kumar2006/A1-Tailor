@@ -39,31 +39,74 @@
     </div>
 </section>
 
-<!-- Contact Form -->
+<!-- Contact Options -->
 <section class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Send Us A Message</h3>
-                <form id="contactForm">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Phone</label>
-                        <input type="tel" class="form-control" id="phone" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-custom">Send Message</button>
-                </form>
-                <div id="formAlert" class="mt-3" style="display:none;"></div>
-            </div>
-            <div class="col-md-6" id="contact-info"></div>
+        <div class="section-title text-center mb-5">
+            <h2>Contact Us</h2>
+            <p>Connect with A-1 Tailor</p>
         </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- WhatsApp -->
+            <div class="col-md-4">
+                <div class="service-card p-4 text-center">
+                    <i class="bi bi-whatsapp fs-1 text-success"></i>
+                    <h4 class="mt-3">
+                        WhatsApp
+                    </h4>
+                    <p>
+                        Chat with us for orders and enquiries.
+                    </p>
+                    <a href="https://wa.me/918530362784"
+                       target="_blank"
+                       class="btn btn-success">
+                        Message Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="col-md-4">
+                <div class="service-card p-4 text-center">
+                    <i class="bi bi-instagram fs-1"></i>
+                    <h4 class="mt-3">
+                        Instagram
+                    </h4>
+                    <p>
+                        View our latest designs and updates.
+                    </p>
+                    <a href="https://www.instagram.com/a.1.tailor/"
+                       target="_blank"
+                       class="btn btn-custom">
+                        Follow Us
+                    </a>
+                </div>
+            </div>
+
+            <!-- Facebook -->
+            <div class="col-md-4">
+                <div class="service-card p-4 text-center">
+                    <i class="bi bi-facebook fs-1"></i>
+                    <h4 class="mt-3">
+                        Facebook
+                    </h4>
+                    <p>
+                        Stay connected with our page.
+                    </p>
+
+                    <a href="https://www.facebook.com/share/1B7kfb1JZa/"
+                       target="_blank"
+                       class="btn btn-primary">
+                        Visit Page
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Dynamic Contact Info -->
+        <div class="mt-5" id="contact-info"></div>
+
     </div>
 </section>
 

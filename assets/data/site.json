@@ -57,12 +57,40 @@
     { "title": "Alteration", "description": "Perfect fitting adjustments." }
   ],
   "gallery": [
-    { "title": "Custom Blouse", "image": "assets/images/blouse.png" },
-    { "title": "Designer Kurti", "image": "assets/images/kurti.png" },
-    { "title": "Alteration Work", "image": "assets/images/alter.png" },
-    { "title": "Bridal Wear", "image": "assets/images/about.png" },
-    { "title": "Gown", "image": "assets/images/gown.png" },
-    { "title": "Frock", "image": "assets/images/frock.png" },
-    { "title": "Salwar-Suit", "image": "assets/images/suit.png" }
-  ]
+  {
+    "title": "Custom Blouse",
+    "image": "assets/images/blouse.png",
+    "alt": "Custom stitched blouse design by A-1 Tailor"
+  },
+  {
+    "title": "Designer Kurti",
+    "image": "assets/images/kurti.png",
+    "alt": "Designer kurti stitching service by A-1 Tailor"
+  },
+  {
+    "title": "Alteration Work",
+    "image": "assets/images/alter.png",
+    "alt": "Ladies garment alteration work by A-1 Tailor"
+  },
+  {
+    "title": "Bridal Wear",
+    "image": "assets/images/about.png",
+    "alt": "Bridal wear stitching and tailoring service"
+  },
+  {
+    "title": "Gown",
+    "image": "assets/images/gown.png",
+    "alt": "Elegant gown stitching design by A-1 Tailor"
+  },
+  {
+    "title": "Frock",
+    "image": "assets/images/frock.png",
+    "alt": "Custom frock stitching service for women"
+  },
+  {
+    "title": "Salwar-Suit",
+    "image": "assets/images/suit.png",
+    "alt": "Salwar suit stitching and alteration service"
+  }
+]
 }
